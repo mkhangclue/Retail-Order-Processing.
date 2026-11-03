@@ -25,9 +25,9 @@ Quy trình bao gồm các giai đoạn chính:
 7. Xử lý khiếu nại về hàng hóa.
 8. Kết thúc quy trình khi đơn hàng được giao thành công hoặc khiếu nại được xử lý hoàn tất.
 ## 4. Các bên tham gia
-| Bên tham gia | Vai trò |
-|---|---|
 
+| Bên tham gia | Vai trò |
+| --- | --- |
 | Khách hàng | Gửi yêu cầu đặt hàng, xác nhận thông tin, thanh toán và phản hồi khi phát sinh vấn đề. |
 | Công ty | Tiếp nhận và xử lý đơn hàng, hóa đơn và phối hợp các bộ phận liên quan. |
 | Nhân viên bán hàng | Xác nhận phương thức giao hàng và trao đổi với khách hàng. |
