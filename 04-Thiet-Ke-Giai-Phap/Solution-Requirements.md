@@ -54,14 +54,20 @@ Các yêu cầu này là cơ sở để định hướng thiết kế và đánh
 
 ## 3. Ma trận truy vết yêu cầu giải pháp
 
-| Solution Requirement | Problem | Business Rule | Functional Requirement |
-|---|---|---|---|
-| SR-01 | P-01 | BR-02 | FR-03 |
-| SR-02 | P-02 | BR-04 | FR-05, FR-06 |
-| SR-03 | P-03 | BR-07 | FR-08 |
-| SR-04 | P-04 | BR-09 | FR-09, FR-10 |
-| SR-05 | P-05 | BR-10 | FR-11, FR-12 |
+| Solution Requirement | Problem | Business Rule | Functional Requirement | Use Case |
+|---|---|---|---|---|
+| SR-01 | P-01 | BR-02 | FR-03 | UC-03 |
+| SR-02 | P-02 | BR-04 | FR-05, FR-06 | UC-05 |
+| SR-03 | P-03 | BR-07 | FR-08 | UC-08 |
+| SR-04 | P-04 | BR-09 | FR-09, FR-10 | UC-11, UC-12 |
+| SR-05 | P-05 | BR-10 | FR-11, FR-12 | UC-13, UC-14, UC-15, UC-16, UC-17, UC-18 |
 
+### Ghi chú về phạm vi truy vết
+
+- Các SR trên tập trung vào 5 vấn đề P-01 đến P-05 đã xác định trong Phase 2.
+- FR-01, FR-02, FR-04, FR-07, FR-13, FR-14, FR-15 và FR-16 vẫn thuộc phạm vi yêu cầu nghiệp vụ của dự án, nhưng không phải tất cả đều cần một SR riêng trong nhóm cải tiến này.
+- Việc một FR chưa xuất hiện trong ma trận SR không có nghĩa là yêu cầu đó bị loại bỏ.
+- Các liên kết hiện tại là kết quả phân tích sơ bộ, cần được xác nhận khi có ý kiến Stakeholder.
 ## 4. Các nội dung chưa được xác định
 
 | ID | Nội dung | Trạng thái |
