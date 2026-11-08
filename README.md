@@ -1,4 +1,4 @@
-# Retail Order Processing – Business Analysis Portfolio
+# Retail Order Processing 
 
 ## 1. Project Overview
 
