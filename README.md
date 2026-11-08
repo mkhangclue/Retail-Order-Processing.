@@ -2,141 +2,114 @@
 
 ## 1. Project Overview
 
-**Project:** Phân tích và cải tiến quy trình xử lý đơn hàng bán lẻ  
-**Domain:** Retail / Order Management  
-**Role:** Business Analyst (Self-directed Portfolio Project)  
-**Project Type:** Business Process Analysis & Solution Design
+**Project Name:** Phân tích và cải tiến quy trình xử lý đơn hàng bán lẻ  
+**Project Type:** Business Analysis Portfolio Project  
+**Role:** Business Analyst (Self-directed Project)  
+**Status:** Documentation Completed – Preliminary Case Study
 
-Dự án tập trung phân tích quy trình xử lý đơn hàng bán lẻ, xác định các vấn đề trong hoạt động nghiệp vụ và đề xuất giải pháp cải tiến.
+### Description
 
-Thông qua dự án, các kỹ thuật và tài liệu BA được áp dụng từ giai đoạn khởi tạo dự án, thu thập yêu cầu, phân tích nghiệp vụ đến thiết kế giải pháp và kiểm định.
+This project focuses on analyzing the retail order processing workflow, identifying potential business problems, documenting business requirements, and proposing improvement solutions.
+
+The project is based on an existing BPMN process model and applies Business Analysis techniques throughout the project lifecycle.
 
 ## 2. Project Objectives
 
-- Phân tích quy trình xử lý đơn hàng hiện tại (AS-IS).
-- Xác định các vấn đề và nguyên nhân trong quy trình.
-- Thu thập và phân tích yêu cầu nghiệp vụ.
-- Xây dựng Business Requirements và Functional Requirements.
-- Mô hình hóa các hoạt động nghiệp vụ bằng BPMN và Use Case.
-- Đề xuất giải pháp nhằm cải thiện quy trình xử lý đơn hàng.
-- Xây dựng các tình huống và trường hợp kiểm thử nghiệp vụ.
+- Analyze the existing retail order processing workflow.
+- Identify potential process issues and root causes.
+- Define business rules and functional requirements.
+- Model business use cases and their relationships.
+- Propose improvements based on identified business problems.
+- Validate requirements through document review and scenario-based testing.
 
 ## 3. Project Scope
 
-Dự án tập trung vào các hoạt động:
+The project covers the following business activities:
 
-- Tiếp nhận và kiểm tra đơn hàng.
-- Kiểm tra tình trạng hàng hóa.
-- Quản lý thông tin giao hàng.
-- Lập hóa đơn và xác nhận thanh toán.
-- Kiểm tra, đóng gói và bàn giao hàng.
-- Theo dõi trạng thái giao hàng.
-- Xử lý giao hàng thất bại.
-- Tiếp nhận và xử lý khiếu nại.
+- Order reception and information verification.
+- Inventory availability checking.
+- Delivery information management.
+- Invoice and payment confirmation.
+- Goods inspection, packaging, and handover.
+- Delivery status tracking and failed delivery handling.
+- Customer complaint processing and replacement delivery.
 
-## 4. Project Methodology
+## 4. Business Analysis Activities
 
-Dự án được triển khai qua 6 giai đoạn:
-
-### Phase 1 – Project Initiation
-
-- Project Overview
-- Business Context Diagram
-- Business Objectives
-- Project Scope
-- Stakeholder Identification
-- Stakeholder Analysis
-- Power–Interest Matrix
-
-### Phase 2 – Requirements Elicitation
-
-- Requirements Elicitation Plan
-- Interview Questions
-- Simulated Interview Notes
-- Business Findings
-- Open Questions
-- AS-IS Process Analysis
-- Problem and Root Cause Analysis
-- Fishbone Diagram
-
-### Phase 3 – Requirements Analysis
-
-- Business Rules (BR)
-- Functional Requirements (FR)
-- Non-functional Requirements (NFR)
-- Use Case Diagram
-- 18 Use Case Specifications
-- Use Case Relationship Analysis
-- Requirements Traceability Matrix (RTM)
-- Requirements Coverage Review
-- Requirements Validation
-
-### Phase 4 – Solution Design
-
-- Improvement Proposal
-- Gap Analysis
-- Solution Requirements
-- Solution Design Summary
-
-### Phase 5 – Solution Validation & Testing
-
-- Test Plan
-- Test Scenarios
-- Test Cases
-- Test Execution Report
-- Defect Log
-
-### Phase 6 – Documentation & Project Closure
-
-- Project Documentation
-- Repository Organization
-- Final Project Summary
-
-## 5. Key Business Problems
-
-Dự án xác định 5 nhóm vấn đề cần được phân tích và cải tiến:
-
-| Problem ID | Business Problem |
+| Phase | Activities |
 |---|---|
-| P-01 | Chưa làm rõ cơ chế kiểm soát và cập nhật tồn kho. |
-| P-02 | Thông tin giao hàng có thể phải cập nhật nhiều lần. |
-| P-03 | Chưa có nhánh xử lý khi khách hàng không xác nhận thanh toán trong 2 ngày. |
-| P-04 | Chưa xác định giới hạn số lần giao hàng lại. |
-| P-05 | Chưa có tiêu chí cụ thể để xác định khiếu nại hợp lệ. |
+| 01. Project Initiation | Project overview, objectives, scope, stakeholder identification and analysis. |
+| 02. Requirements Elicitation | Requirements gathering plan, simulated interview, business findings, AS-IS analysis and root cause analysis. |
+| 03. Requirements Analysis | Business rules, functional and non-functional requirements, Use Case Diagram, Use Case Specifications and traceability. |
+| 04. Solution Design | Gap Analysis, proposed process improvements and solution requirements. |
+| 05. Solution Validation & Testing | Test Plan, Test Scenarios, Test Cases, Test Execution Report and Defect Log. |
+| 06. Project Closure | Final documentation review and project summary. |
+
+## 5. Key Deliverables
+
+- Business Context Diagram
+- Stakeholder Analysis and Power–Interest Matrix
+- AS-IS Process Analysis
+- Root Cause Analysis – Fishbone Diagram
+- Business Rules
+- Business Requirements (FR/NFR)
+- Use Case Diagram and Use Case Specifications
+- Requirements Traceability Matrix (RTM)
+- Gap Analysis
+- Proposed Improvement Solutions
+- Test Plan and Test Cases
+- Test Execution Report and Defect Log
 
 ## 6. Tools & Techniques
 
 **Tools**
-- Draw.io – Business Process Modeling
-- GitHub – Project Documentation & Version Control
-- Microsoft Office – Documentation
-- Markdown – Requirements Documentation
+- Draw.io – Process and diagram modeling.
+- GitHub – Documentation and version control.
+- Markdown – Business analysis documentation.
 
 **Techniques**
-- BPMN 2.0
+- BPMN
 - Stakeholder Analysis
-- Interview Technique
-- Root Cause Analysis
-- Fishbone Diagram
-- Functional & Non-functional Requirements Analysis
+- Root Cause Analysis (Fishbone Diagram)
+- Business Rules Analysis
+- Functional and Non-functional Requirements
 - Use Case Modeling
-- Requirements Traceability
-- Gap Analysis
+- Requirements Traceability Matrix
 - Scenario-based Testing
 
-## 7. Project Limitations
+## 7. Repository Structure
 
-- Đây là dự án portfolio tự thực hiện, không phải dự án triển khai tại doanh nghiệp.
-- Quy trình AS-IS được sử dụng làm cơ sở phân tích nghiệp vụ.
-- Phần phỏng vấn là phỏng vấn giả lập, không đại diện cho xác nhận chính thức từ Stakeholder.
-- Các giải pháp TO-BE mới ở mức đề xuất; chưa được doanh nghiệp phê duyệt.
-- Chưa có phần mềm thực tế để thực hiện kiểm thử hệ thống.
-- Dữ liệu sử dụng trong các tình huống kiểm thử là dữ liệu giả lập.
+```text
+retail-order-processing/
+│
+├── 01-Khoi-Tao-Du-An/
+├── 02-Thu-Thap-Yeu-Cau/
+├── 03-Phan-Tich-Yeu-Cau/
+├── 04-Thiet-Ke-Giai-Phap/
+├── 05-Kiem-Dinh-va-Kiem-Thu/
+├── 06-Tong-Ket-Du-An/
+│
+└── README.md
+```
 
-## 8. Project Status
+## 8. Project Limitations
 
-**Status:** Portfolio Project – Documentation Draft Completed
+- This is a self-directed portfolio case study, not a commissioned project for a real business.
+- The original BPMN model is used as the basis for business process analysis.
+- Interview findings are simulated and have not been validated through actual stakeholder interviews.
+- Proposed requirements and improvements are analytical recommendations, not confirmed business policies.
+- Testing is conducted through document review and scenario-based evaluation. No actual software system has been implemented or tested.
+- Some business rules remain open for stakeholder clarification.
 
-Dự án đã xây dựng bộ tài liệu BA từ phân tích quy trình hiện trạng đến đề xuất giải pháp và kiểm thử nghiệp vụ trên tài liệu.
+## 9. Expected Outcomes
 
-Các nội dung có thể tiếp tục được cập nhật khi có thêm thông tin và phản hồi từ Stakeholder.
+This project demonstrates the ability to:
+
+- Analyze and understand business processes.
+- Identify business problems and potential root causes.
+- Translate business needs into structured requirements.
+- Model use cases and document system behavior.
+- Maintain requirements traceability.
+- Propose solutions and evaluate them through test scenarios.
+
+---
