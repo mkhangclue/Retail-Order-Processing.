@@ -1,75 +1,142 @@
-# Quy trình xử lý đơn hàng bán lẻ
+# Retail Order Processing – Business Analysis Portfolio
 
-Mô hình hóa và mô tả quy trình xử lý đơn hàng bán lẻ bằng BPMN.
-## 1. Giới thiệu
+## 1. Project Overview
 
-Project mô hình hóa quy trình nghiệp vụ của một nhà phân phối thiết bị, tập trung vào quy trình xử lý đơn hàng bán lẻ.
-Quy trình bắt đầu từ khi khách hàng gửi yêu cầu đặt hàng và bao gồm các hoạt động tiếp nhận đơn hàng, xác nhận thông tin, xử lý hóa đơn, kiểm tra và đóng gói hàng hóa, vận chuyển, giao hàng và xử lý các trường hợp giao hàng thất bại hoặc phát sinh khiếu nại.
-Mô hình được xây dựng bằng BPMN 2.0 nhằm trực quan hóa luồng nghiệp vụ, các bên tham gia và các điểm quyết định trong quy trình.
-## 2. Mục tiêu
+**Project:** Phân tích và cải tiến quy trình xử lý đơn hàng bán lẻ  
+**Domain:** Retail / Order Management  
+**Role:** Business Analyst (Self-directed Portfolio Project)  
+**Project Type:** Business Process Analysis & Solution Design
 
-- Mô hình hóa quy trình xử lý đơn hàng bằng BPMN 2.0.
-- Xác định các bên tham gia và vai trò trong quy trình.
-- Biểu diễn luồng xử lý và các điểm quyết định của nghiệp vụ.
-- Mô tả các trường hợp ngoại lệ như giao hàng thất bại và khiếu nại.
-- Xây dựng tài liệu mô tả chi tiết để hỗ trợ việc đọc và phân tích mô hình BPMN.
-## 3. Phạm vi quy trình
-Quy trình bao gồm các giai đoạn chính:
+Dự án tập trung phân tích quy trình xử lý đơn hàng bán lẻ, xác định các vấn đề trong hoạt động nghiệp vụ và đề xuất giải pháp cải tiến.
 
-1. Tiếp nhận và xác nhận yêu cầu đơn hàng.
-2. Xử lý hóa đơn và thanh toán.
-3. Kiểm tra và đóng gói hàng hóa.
-4. Chuẩn bị và thực hiện giao hàng.
-5. Cập nhật trạng thái đơn hàng.
-6. Xử lý giao hàng thất bại và gửi lại hàng.
-7. Xử lý khiếu nại về hàng hóa.
-8. Kết thúc quy trình khi đơn hàng được giao thành công hoặc khiếu nại được xử lý hoàn tất.
-## 4. Các bên tham gia
+Thông qua dự án, các kỹ thuật và tài liệu BA được áp dụng từ giai đoạn khởi tạo dự án, thu thập yêu cầu, phân tích nghiệp vụ đến thiết kế giải pháp và kiểm định.
 
-| Bên tham gia | Vai trò |
-| --- | --- |
-| Khách hàng | Gửi yêu cầu đặt hàng, xác nhận thông tin, thanh toán và phản hồi khi phát sinh vấn đề. |
-| Công ty | Tiếp nhận và xử lý đơn hàng, hóa đơn và phối hợp các bộ phận liên quan. |
-| Nhân viên bán hàng | Xác nhận phương thức giao hàng và trao đổi với khách hàng. |
-| Nhân viên kho hàng | Kiểm tra đơn hàng và thực hiện đóng gói hàng hóa. |
-| Đơn vị vận chuyển | Kiểm tra thông tin giao hàng và thực hiện vận chuyển. |
-| Bộ phận chăm sóc khách hàng | Tiếp nhận và xử lý các trường hợp giao hàng thất bại hoặc khiếu nại. |
-## 5. Sub-process: Xử lý đơn hàng
-Sub-process xử lý đơn hàng mô tả các hoạt động xử lý đơn hàng sau khi đơn hàng được tiếp nhận.
-Các bước chính bao gồm:
+## 2. Project Objectives
 
-- Kiểm tra tình trạng còn hàng.
-- Xử lý trường hợp sản phẩm không còn hàng.
-- Tiếp nhận lựa chọn của khách hàng.
-- Xử lý trường hợp khách hàng hủy đơn hoặc lựa chọn sản phẩm khác.
-- Thu thập thông tin giao hàng.
-- Kiểm tra và cập nhật thông tin giao hàng khi cần.
-- Lập hóa đơn đơn hàng.
-## 6. Công cụ sử dụng
+- Phân tích quy trình xử lý đơn hàng hiện tại (AS-IS).
+- Xác định các vấn đề và nguyên nhân trong quy trình.
+- Thu thập và phân tích yêu cầu nghiệp vụ.
+- Xây dựng Business Requirements và Functional Requirements.
+- Mô hình hóa các hoạt động nghiệp vụ bằng BPMN và Use Case.
+- Đề xuất giải pháp nhằm cải thiện quy trình xử lý đơn hàng.
+- Xây dựng các tình huống và trường hợp kiểm thử nghiệp vụ.
 
+## 3. Project Scope
+
+Dự án tập trung vào các hoạt động:
+
+- Tiếp nhận và kiểm tra đơn hàng.
+- Kiểm tra tình trạng hàng hóa.
+- Quản lý thông tin giao hàng.
+- Lập hóa đơn và xác nhận thanh toán.
+- Kiểm tra, đóng gói và bàn giao hàng.
+- Theo dõi trạng thái giao hàng.
+- Xử lý giao hàng thất bại.
+- Tiếp nhận và xử lý khiếu nại.
+
+## 4. Project Methodology
+
+Dự án được triển khai qua 6 giai đoạn:
+
+### Phase 1 – Project Initiation
+
+- Project Overview
+- Business Context Diagram
+- Business Objectives
+- Project Scope
+- Stakeholder Identification
+- Stakeholder Analysis
+- Power–Interest Matrix
+
+### Phase 2 – Requirements Elicitation
+
+- Requirements Elicitation Plan
+- Interview Questions
+- Simulated Interview Notes
+- Business Findings
+- Open Questions
+- AS-IS Process Analysis
+- Problem and Root Cause Analysis
+- Fishbone Diagram
+
+### Phase 3 – Requirements Analysis
+
+- Business Rules (BR)
+- Functional Requirements (FR)
+- Non-functional Requirements (NFR)
+- Use Case Diagram
+- 18 Use Case Specifications
+- Use Case Relationship Analysis
+- Requirements Traceability Matrix (RTM)
+- Requirements Coverage Review
+- Requirements Validation
+
+### Phase 4 – Solution Design
+
+- Improvement Proposal
+- Gap Analysis
+- Solution Requirements
+- Solution Design Summary
+
+### Phase 5 – Solution Validation & Testing
+
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Test Execution Report
+- Defect Log
+
+### Phase 6 – Documentation & Project Closure
+
+- Project Documentation
+- Repository Organization
+- Final Project Summary
+
+## 5. Key Business Problems
+
+Dự án xác định 5 nhóm vấn đề cần được phân tích và cải tiến:
+
+| Problem ID | Business Problem |
+|---|---|
+| P-01 | Chưa làm rõ cơ chế kiểm soát và cập nhật tồn kho. |
+| P-02 | Thông tin giao hàng có thể phải cập nhật nhiều lần. |
+| P-03 | Chưa có nhánh xử lý khi khách hàng không xác nhận thanh toán trong 2 ngày. |
+| P-04 | Chưa xác định giới hạn số lần giao hàng lại. |
+| P-05 | Chưa có tiêu chí cụ thể để xác định khiếu nại hợp lệ. |
+
+## 6. Tools & Techniques
+
+**Tools**
+- Draw.io – Business Process Modeling
+- GitHub – Project Documentation & Version Control
+- Microsoft Office – Documentation
+- Markdown – Requirements Documentation
+
+**Techniques**
 - BPMN 2.0
-- diagrams.net (draw.io)
-- Microsoft Word
-## 7. Cấu trúc repository
+- Stakeholder Analysis
+- Interview Technique
+- Root Cause Analysis
+- Fishbone Diagram
+- Functional & Non-functional Requirements Analysis
+- Use Case Modeling
+- Requirements Traceability
+- Gap Analysis
+- Scenario-based Testing
 
-```text
-quy-trinh-xu-ly-don-hang-ban-le/
-│
-├── BPMN/
-│   ├── Quy trình xử lý đơn hàng bán lẻ.pdf
-│   └── Quy trình xử lý đơn hàng - Sub-process.pdf
-│
-├── Documentation/
-│   ├── Mô tả Quy trình Xử lý Đơn hàng Bán lẻ.docx
-│   └── Mô tả Quy trình Xử lý Đơn hàng - Quy trình con.docx
-│
-└── README.md
-```
-## 8. Tài liệu
-### BPMN
+## 7. Project Limitations
 
-- [Quy trình xử lý đơn hàng bán lẻ](./BPMN/Quy%20trình%20xử%20lý%20đơn%20hàng%20bán%20lẻ.pdf)
-- [Quy trình xử lý đơn hàng - Sub-process](./BPMN/Quy%20trình%20xử%20lý%20đơn%20hàng%20-%20Sub-process.pdf)
-### Documentation
-- [Mô tả Quy trình Xử lý Đơn hàng Bán lẻ](./Documentation/Mô%20tả%20Quy%20trình%20Xử%20lý%20Đơn%20hàng%20Bán%20lẻ.docx)
-- [Mô tả Quy trình Xử lý Đơn hàng - Quy trình con](./Documentation/Mô%20tả%20Quy%20trình%20Xử%20lý%20Đơn%20hàng%20-%20Quy%20trình%20con.docx)
+- Đây là dự án portfolio tự thực hiện, không phải dự án triển khai tại doanh nghiệp.
+- Quy trình AS-IS được sử dụng làm cơ sở phân tích nghiệp vụ.
+- Phần phỏng vấn là phỏng vấn giả lập, không đại diện cho xác nhận chính thức từ Stakeholder.
+- Các giải pháp TO-BE mới ở mức đề xuất; chưa được doanh nghiệp phê duyệt.
+- Chưa có phần mềm thực tế để thực hiện kiểm thử hệ thống.
+- Dữ liệu sử dụng trong các tình huống kiểm thử là dữ liệu giả lập.
+
+## 8. Project Status
+
+**Status:** Portfolio Project – Documentation Draft Completed
+
+Dự án đã xây dựng bộ tài liệu BA từ phân tích quy trình hiện trạng đến đề xuất giải pháp và kiểm thử nghiệp vụ trên tài liệu.
+
+Các nội dung có thể tiếp tục được cập nhật khi có thêm thông tin và phản hồi từ Stakeholder.
