@@ -22,7 +22,9 @@ Các yêu cầu dưới đây là đề xuất phục vụ phân tích và cải
 | FR-10 | Xử lý giao hàng thất bại | Hỗ trợ ghi nhận kết quả giao thất bại và hướng xử lý tiếp theo. | High |
 | FR-11 | Tiếp nhận khiếu nại | Hỗ trợ ghi nhận loại khiếu nại và bằng chứng từ khách hàng. | Medium |
 | FR-12 | Theo dõi kết quả xử lý khiếu nại | Hỗ trợ cập nhật kết quả xác minh và phương án giải quyết. | Medium |
-
+| FR-13 | Xác nhận phương thức giao hàng | Hỗ trợ ghi nhận phương thức giao hàng được lựa chọn và xác nhận cho đơn hàng. | High |
+| FR-14 | Quản lý thông tin bảo hiểm hàng hóa | Hỗ trợ ghi nhận lựa chọn bảo hiểm, thông tin bảo hiểm và khoản phí bảo hiểm (nếu có). | Medium |
+| FR-15 | Kiểm tra và đóng gói hàng hóa | Hỗ trợ kiểm tra thông tin đơn hàng, tình trạng hàng hóa và thực hiện đóng gói theo yêu cầu trước khi bàn giao cho đơn vị vận chuyển. | High |
 ## 3. Non-functional Requirements (NFR)
 
 | ID | Tên yêu cầu | Mô tả |
